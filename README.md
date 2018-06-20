@@ -13,3 +13,14 @@ Para facilitar o processo de análise e síntese dos dados está sendo utilizand
 <p>
 Este trabalho tem como objetivo mostrar tendências e provar a viabilidade dessas tecnologias para uso de análise de reputação em redes, identificação de robôs e possíveis perfis utilziados para divulgação de fakenews e manipulação de opinião pública. A ideia é meramente acadêmica.
 </p>
+
+## Histórico
+
+<ol>
+  <li> Análise de sentimento
+      <ul>
+         <li><a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/Resultados%20An%C3%A1lise%20de%20Sentimentos%20-%2020062018.pdf'> Resultados em 20/06/2018 </a></li>
+    </ul>
+  </li>
+</ol>
+
