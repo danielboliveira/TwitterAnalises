@@ -31,7 +31,7 @@ Este trabalho tem como objetivo mostrar tendências e provar a viabilidade dessa
 
 #### Brasil x Costa Rica - 22/06/2018
 
-<img href = 'https://github.com/danielboliveira/TwitterAnalises/blob/master/Analise_Sentimento_BrasilxCostaRica_22062018.png'>
+<img src = 'https://github.com/danielboliveira/TwitterAnalises/blob/master/Analise_Sentimento_BrasilxCostaRica_22062018.png'>
 
 <p> O detalhamento pode ser visto <a href='https://goo.gl/upWjCE'>aqui</a> </p>
 
