@@ -25,3 +25,13 @@ Este trabalho tem como objetivo mostrar tendências e provar a viabilidade dessa
   </li>
 </ol>
 
+### Análise específica: Seleção Brasileira - Copa 2018
+
+<p>Desenvolvi um crawler específico para atuar durante os jogos da seleção brasileira. Para verificar o comportamento dos torcedores na rede social, bem como a atuação de perfis de influência (aqui os defino como sendo perfis com muitos seguidores e que suas postagens, normalmente de cunho pejorativo, tem muita reverberação na rede).</p>
+
+#### Brasil x Costa Rica - 22/06/2018
+
+<img href = 'https://github.com/danielboliveira/TwitterAnalises/blob/master/Analise_Sentimento_BrasilxCostaRica_22062018.png'>
+
+<p> O detalhamento pode ser visto <a href='https://goo.gl/upWjCE'>aqui</a> </p>
+
