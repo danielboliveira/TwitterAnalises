@@ -35,3 +35,8 @@ Este trabalho tem como objetivo mostrar tendências e provar a viabilidade dessa
 
 <p> O detalhamento pode ser visto <a href='https://goo.gl/upWjCE'>aqui</a> </p>
 
+#### Dos perfis de influência durante a partida do dia 22/06
+
+<p> Foi realizado um estudo específico para verificar a real influência de determinados perfis na rede. A capacidade de propagação de postagens. E, por extensão pode-se verificar os riscos e janelas temporais para propagação das chamadas <i>fake news</i>.</p>
+<p> Os resultados da análise pode ser vistos <a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/An%C3%A1lise%20de%20perfis%20de%20influ%C3%AAncia%20no%20Twitter.pdf'> aqui </a>
+
