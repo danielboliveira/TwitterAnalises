@@ -40,3 +40,6 @@ Este trabalho tem como objetivo mostrar tendências e provar a viabilidade dessa
 <p> Foi realizado um estudo específico para verificar a real influência de determinados perfis na rede. A capacidade de propagação de postagens. E, por extensão pode-se verificar os riscos e janelas temporais para propagação das chamadas <i>fake news</i>.</p>
 <p> Os resultados da análise pode ser vistos <a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/An%C3%A1lise%20de%20perfis%20de%20influ%C3%AAncia%20no%20Twitter.pdf'> aqui </a>
 
+### Reputação Neymar
+<p>Ainda usando o evento Copa do Mundo 2018 como referência para os testes da ferramenta e melhoria nos algoritmos, vou realizar um acompanhamento da reputação do Neymar próxmo dos jogos</p>
+<p>Entre os dias 26/6 e 27/06 realizei a análise de reputação do Neymar no Twitter. Os resultados podem ser visto: <a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/Analise%20Neymar%2026-6%20a%2027-6.pdf'> aqui </a></p>
