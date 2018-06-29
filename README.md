@@ -43,3 +43,9 @@ Este trabalho tem como objetivo mostrar tendências e provar a viabilidade dessa
 ### Reputação Neymar
 <p>Ainda usando o evento Copa do Mundo 2018 como referência para os testes da ferramenta e melhoria nos algoritmos, vou realizar um acompanhamento da reputação do Neymar próxmo dos jogos</p>
 <p>Entre os dias 26/6 e 27/06 realizei a análise de reputação do Neymar no Twitter. Os resultados podem ser visto: <a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/Analise%20Neymar%2026-6%20a%2027-6.pdf'> aqui </a></p>
+
+<p><b>26/06/2018<b> - Fiz alguns ajustes nos alforitmos de identificação e classificação de termos e palavras. Abaixo segue as nuvens de termos de maior frequência nos Posts do Neymar. A primeira Nuvem corresponde o período antes do jogo do dia 27/6 (26/06 até a madrugada do dia 27/06) e a segunda é após o jogo (das 17:00 do dia 27/06 até 01:30 do dia 28/06)</p>
+
+<img src='https://github.com/danielboliveira/TwitterAnalises/blob/master/imagens/Analise_Cloud_Words_Neymar_26062018.png'/>
+</br>
+<img src='https://github.com/danielboliveira/TwitterAnalises/blob/master/imagens/Analise_Cloud_Words_Neymar_27062018.png'/>
