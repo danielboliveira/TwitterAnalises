@@ -49,3 +49,7 @@ Este trabalho tem como objetivo mostrar tendências e provar a viabilidade dessa
 <img src='https://github.com/danielboliveira/TwitterAnalises/blob/master/imagens/Analise_Cloud_Words_Neymar_26062018.png'/>
 </br>
 <img src='https://github.com/danielboliveira/TwitterAnalises/blob/master/imagens/Analise_Cloud_Words_Neymar_27062018.png'/>
+</br>
+<p><h3>Jogo 4 (02/07/2018)</h3></p>
+<p>Levando-se em conta os resultados da análise do jogo 4 a rejeição ao Neymar está consolida. E, pelo visto, mesmo se o Brasil ganhar a copa não vai mudar. No entanto, o mesmo ocorre para aqueles que gostam dele.</p>
+<p><a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/Neymar%20Jogo%204%2002-07.pdf'>Análise de Reputação Jogo 4 </a></p>
