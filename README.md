@@ -53,3 +53,11 @@ Este trabalho tem como objetivo mostrar tendências e provar a viabilidade dessa
 <p><h3>Jogo 4 (02/07/2018)</h3></p>
 <p>Levando-se em conta os resultados da análise do jogo 4 a rejeição ao Neymar está consolida. E, pelo visto, mesmo se o Brasil ganhar a copa não vai mudar. No entanto, o mesmo ocorre para aqueles que gostam dele.</p>
 <p><a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/Neymar%20Jogo%204%2002-07.pdf'>Análise de Reputação Jogo 4 </a></p>
+
+##Fechamento da Análise da Copa
+<p> Com a eliminação do Brasil da Copa de 2018, vamos as últimas análises de reputação. Como esperado a reputação do Neymar permanece ruim e deve piorar nos próximos meses. Já da seleção brasileira não ficou tão ruim assim.</p>
+<ul>
+  <li><a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/An%C3%A1lise%20Neymar%20Jogo%205.pdf'>Reputação Neymar Jogo 5 </a></li>
+  <li><a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/Analise%20Sele%C3%A7%C3%A3o%20Brasileira%20Jogo%205.pdf'>Reputação Seleção Brasileira Jogo 5</a></li>
+</ul>
+<p>Após esse período de copa vou voltar analisar nossos políticos para a corrida presidencial!</p>
