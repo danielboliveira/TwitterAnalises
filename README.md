@@ -21,6 +21,7 @@ Este trabalho tem como objetivo mostrar tendências e provar a viabilidade dessa
       <ul>
          <li><a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/Resultados%20An%C3%A1lise%20de%20Sentimentos%20-%2020062018.pdf'> Resultados em 20/06/2018 </a></li>
         <li> <a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/An%C3%A1lise%20Sentimentos%20-%2022062018.pdf'> Resultados em 22/06/2018 </a></li>
+        <li> <a href='https://github.com/danielboliveira/TwitterAnalises/blob/master/Eleicoes2018/An%C3%A1lise%20Lula%20e%20Bolsanaro%2009-07-18.pdf'> Lula x Bolsonaro (09/07) - durante a manobra para solta o Lula </a>
     </ul>
   </li>
 </ol>
