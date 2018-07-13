@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Resultados de análises Sentimental:13/07/2018 17:12</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<div style="background-color:#f1f1f1;padding:15px;">
+<h1 id="titulo">Termo:BOLSONARO</h1>
+</div>
+<div style="overflow:auto">
+<div class="main">
+<div id="graficoSentimento">
+<h2>Gráfico de Sentimento em linha</h2>
+<p>*Os valores aqui apresentados estão considerando TODAS as interações</p>
+<img id="graficoSentimentoLine_img" src="sentimentos_line.png" style="width:100%"/>
+<img id="graficoSentimentoBar_img" src="sentimentos_bar.png" style="width:100%"/>
+<img id="graficoSentimentoPie_img" src="sentimentos_pie.png" style="width:100%"/>
+<br/>
+<p>Dados de Origem</p>
+<div id="table_graficoSentimento"><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Data</th>
+<th>Negativos</th>
+<th>Neutros</th>
+<th>Positivos</th>
+<th>%Negativos</th>
+<th>%Positivos</th>
+<th>%Neutros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>2018-07-06</td>
+<td>46</td>
+<td>13</td>
+<td>16</td>
+<td>61.33</td>
+<td>21.33</td>
+<td>17.33</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2018-07-07</td>
+<td>85</td>
+<td>34</td>
+<td>31</td>
+<td>56.67</td>
+<td>20.67</td>
+<td>22.67</td>
+</tr>
+<tr>
+<th>2</th>
+<td>2018-07-08</td>
+<td>8879</td>
+<td>3252</td>
+<td>8124</td>
+<td>43.84</td>
+<td>40.11</td>
+<td>16.06</td>
+</tr>
+<tr>
+<th>3</th>
+<td>2018-07-09</td>
+<td>8214</td>
+<td>10353</td>
+<td>6339</td>
+<td>32.98</td>
+<td>25.45</td>
+<td>41.57</td>
+</tr>
+<tr>
+<th>4</th>
+<td>2018-07-10</td>
+<td>9953</td>
+<td>4994</td>
+<td>9449</td>
+<td>40.80</td>
+<td>38.73</td>
+<td>20.47</td>
+</tr>
+<tr>
+<th>5</th>
+<td>2018-07-11</td>
+<td>1327</td>
+<td>782</td>
+<td>1300</td>
+<td>38.93</td>
+<td>38.13</td>
+<td>22.94</td>
+</tr>
+</tbody>
+</table><p>Totalizadores</p><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Negativos</th>
+<th>Neutros</th>
+<th>Positivos</th>
+<th>%Negativos</th>
+<th>%Positivos</th>
+<th>%Neutros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>count</th>
+<td>6.00</td>
+<td>6.00</td>
+<td>6.00</td>
+<td>6.00</td>
+<td>6.00</td>
+<td>6.00</td>
+</tr>
+<tr>
+<th>mean</th>
+<td>4750.67</td>
+<td>3238.00</td>
+<td>4209.83</td>
+<td>45.76</td>
+<td>30.74</td>
+<td>23.51</td>
+</tr>
+<tr>
+<th>std</th>
+<td>4727.07</td>
+<td>4010.12</td>
+<td>4261.95</td>
+<td>10.95</td>
+<td>9.21</td>
+<td>9.27</td>
+</tr>
+<tr>
+<th>min</th>
+<td>46.00</td>
+<td>13.00</td>
+<td>16.00</td>
+<td>32.98</td>
+<td>20.67</td>
+<td>16.06</td>
+</tr>
+<tr>
+<th>25%</th>
+<td>395.50</td>
+<td>221.00</td>
+<td>348.25</td>
+<td>39.39</td>
+<td>22.36</td>
+<td>18.12</td>
+</tr>
+<tr>
+<th>50%</th>
+<td>4770.50</td>
+<td>2017.00</td>
+<td>3819.50</td>
+<td>42.32</td>
+<td>31.79</td>
+<td>21.57</td>
+</tr>
+<tr>
+<th>75%</th>
+<td>8712.75</td>
+<td>4558.50</td>
+<td>7677.75</td>
+<td>53.46</td>
+<td>38.58</td>
+<td>22.87</td>
+</tr>
+<tr>
+<th>max</th>
+<td>9953.00</td>
+<td>10353.00</td>
+<td>9449.00</td>
+<td>61.33</td>
+<td>40.11</td>
+<td>41.57</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr/>
+<div id="graficoSentimentoLineInfluenciadores">
+<h2>Gráfico de Sentimento Linha - Apenas Influenciadores</h2>
+<p>*Os valores aqui apresentados estão considerando apenas as postagens iniciais para cada termo</p>
+<img id="graficoSentimentoLineInfluenciadores_img" src="sentimentos_influencia_line.png" style="width:100%"/>
+<img id="graficoSentimentoBarInfluenciadores_img" src="sentimentos_influencia_bar.png" style="width:100%"/>
+<p>Dados de Origem</p>
+<div id="table_graficoSentimentoInfluenciadores"></div>
+</div>
+</div>
+</div>
+<div id="footer" style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> <b>Resultados gerados em 13/07/2018 17:12:59</b></div>
+</body>
+</html>
