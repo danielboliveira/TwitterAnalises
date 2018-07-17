@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Resultados de análises Sentimental</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<div style="background-color:#f1f1f1;padding:15px;">
+<h1 id="titulo">Resultados de análise sentimental de candidatos Eleições 2018</h1>
+</div>
+<br/>
+<div style="overflow:auto">
+<div class="main">
+<h2>Comparativos Globais</h2>
+<img id="graficoSentimentoLineNegatividade" src="graficoAnaliseNegativo.png" style="width:100%"/>
+<img id="graficoSentimentoLinePositividade" src="graficoAnalisePositivo.png" style="width:100%"/>
+<hr/>
+<h2>Detalhamento</h2>
+<ul id="folderList">
+<li>BOLSONARO<ul><li><a href="bolsonaro/2018_07_09/results.html">09/07/2018</a></li><li><a href="bolsonaro/2018_07_10/results.html">10/07/2018</a></li><li><a href="bolsonaro/2018_07_11/results.html">11/07/2018</a></li><li><a href="bolsonaro/2018_07_12/results.html">12/07/2018</a></li><li><a href="bolsonaro/2018_07_13/results.html">13/07/2018</a></li><li><a href="bolsonaro/2018_07_14/results.html">14/07/2018</a></li><li><a href="bolsonaro/2018_07_16/results.html">16/07/2018</a></li><li><a href="bolsonaro/2018_07_17/results.html">17/07/2018</a></li></ul></li><li>LULA<ul><li><a href="lula/2018_07_09/results.html">09/07/2018</a></li><li><a href="lula/2018_07_10/results.html">10/07/2018</a></li><li><a href="lula/2018_07_11/results.html">11/07/2018</a></li><li><a href="lula/2018_07_12/results.html">12/07/2018</a></li><li><a href="lula/2018_07_13/results.html">13/07/2018</a></li><li><a href="lula/2018_07_14/results.html">14/07/2018</a></li><li><a href="lula/2018_07_16/results.html">16/07/2018</a></li><li><a href="lula/2018_07_17/results.html">17/07/2018</a></li></ul></li></ul>
+</div>
+</div>
+<h3>Obs:Os dados aqui expostos são frutos de trabalho de cunho acadêmico para validação de modelos de Deep Learning e Processamento de linguagens naturais. Não tendo NENHUM objetivo político partidário.</h3>
+<div id="footer" style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> <b>Resultados gerados em 17/07/2018 09:26:17</b></div>
+</body>
+</html>
