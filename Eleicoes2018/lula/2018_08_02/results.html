@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Resultados de análises Sentimental:02/08/2018 10:57</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<div style="background-color:#f1f1f1;padding:15px;">
+<h1 id="titulo">Termo:LULA</h1>
+</div>
+<a href="../../index.html">Voltar</a>
+<br/>
+<div style="overflow:auto">
+<div class="main">
+<div id="graficoSentimento">
+<h2>Gráfico de Sentimento em linha</h2>
+<p>*Os valores aqui apresentados estão considerando TODAS as interações</p>
+<img id="graficoSentimentoLine_img" src="sentimentos_line.png" style="width:100%"/>
+<img id="graficoSentimentoBar_img" src="sentimentos_bar.png" style="width:100%"/>
+<img id="graficoSentimentoPie_img" src="sentimentos_pie.png" style="width:100%"/>
+<br/>
+<p>Dados de Origem</p>
+<div id="table_graficoSentimento"></div>
+</div>
+<hr/>
+<div id="graficoSentimentoLineInfluenciadores">
+<h2>Gráfico de Sentimento Linha - Apenas Influenciadores</h2>
+<p>*Os valores aqui apresentados estão considerando apenas as postagens iniciais para cada termo</p>
+<img id="graficoSentimentoLineInfluenciadores_img" src="sentimentos_influencia_line.png" style="width:100%"/>
+<img id="graficoSentimentoBarInfluenciadores_img" src="sentimentos_influencia_bar.png" style="width:100%"/>
+<p>Dados de Origem</p>
+<div id="table_graficoSentimentoInfluenciadores"></div>
+</div>
+</div>
+</div>
+<div id="footer" style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> <b>Resultados gerados em 02/08/2018 10:57:59</b></div>
+</body>
+</html>
