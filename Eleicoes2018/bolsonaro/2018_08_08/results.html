@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Resultados de análises Sentimental:08/08/2018 16:02</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+<div style="background-color:#f1f1f1;padding:15px;">
+<h1 id="titulo">Termo:BOLSONARO</h1>
+</div>
+<a href="../../index.html">Voltar</a>
+<br/>
+<div style="overflow:auto">
+<div class="main">
+<div id="graficoSentimento">
+<h2>Gráfico de Sentimento em linha</h2>
+<p>*Os valores aqui apresentados estão considerando TODAS as interações</p>
+<img id="graficoSentimentoLine_img" src="sentimentos_line.png" style="width:100%"/>
+<img id="graficoSentimentoBar_img" src="sentimentos_bar.png" style="width:100%"/>
+<img id="graficoSentimentoPie_img" src="sentimentos_pie.png" style="width:100%"/>
+<br/>
+<p>Dados de Origem</p>
+<div id="table_graficoSentimento"><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Data</th>
+<th>Positivos</th>
+<th>Negativos</th>
+<th>Neutros</th>
+<th>%Negativos</th>
+<th>%Positivos</th>
+<th>%Neutros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>2018-08-01</td>
+<td>6158</td>
+<td>14093</td>
+<td>4182</td>
+<td>57.68</td>
+<td>25.20</td>
+<td>17.12</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2018-08-02</td>
+<td>10879</td>
+<td>17275</td>
+<td>5901</td>
+<td>50.73</td>
+<td>31.94</td>
+<td>17.33</td>
+</tr>
+<tr>
+<th>2</th>
+<td>2018-08-03</td>
+<td>6722</td>
+<td>10897</td>
+<td>3461</td>
+<td>51.69</td>
+<td>31.89</td>
+<td>16.42</td>
+</tr>
+<tr>
+<th>3</th>
+<td>2018-08-04</td>
+<td>7921</td>
+<td>15830</td>
+<td>4590</td>
+<td>55.86</td>
+<td>27.95</td>
+<td>16.20</td>
+</tr>
+<tr>
+<th>4</th>
+<td>2018-08-05</td>
+<td>8986</td>
+<td>11908</td>
+<td>4018</td>
+<td>47.80</td>
+<td>36.07</td>
+<td>16.13</td>
+</tr>
+<tr>
+<th>5</th>
+<td>2018-08-06</td>
+<td>7437</td>
+<td>10910</td>
+<td>3067</td>
+<td>50.95</td>
+<td>34.73</td>
+<td>14.32</td>
+</tr>
+<tr>
+<th>6</th>
+<td>2018-08-07</td>
+<td>1245</td>
+<td>2172</td>
+<td>579</td>
+<td>54.35</td>
+<td>31.15</td>
+<td>14.49</td>
+</tr>
+</tbody>
+</table><p>Totalizadores</p><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Positivos</th>
+<th>Negativos</th>
+<th>Neutros</th>
+<th>%Negativos</th>
+<th>%Positivos</th>
+<th>%Neutros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>count</th>
+<td>7.00</td>
+<td>7.00</td>
+<td>7.00</td>
+<td>7.00</td>
+<td>7.00</td>
+<td>7.00</td>
+</tr>
+<tr>
+<th>mean</th>
+<td>7049.71</td>
+<td>11869.29</td>
+<td>3685.43</td>
+<td>52.72</td>
+<td>31.28</td>
+<td>16.00</td>
+</tr>
+<tr>
+<th>std</th>
+<td>2997.75</td>
+<td>4928.80</td>
+<td>1641.49</td>
+<td>3.40</td>
+<td>3.73</td>
+<td>1.18</td>
+</tr>
+<tr>
+<th>min</th>
+<td>1245.00</td>
+<td>2172.00</td>
+<td>579.00</td>
+<td>47.80</td>
+<td>25.20</td>
+<td>14.32</td>
+</tr>
+<tr>
+<th>25%</th>
+<td>6440.00</td>
+<td>10903.50</td>
+<td>3264.00</td>
+<td>50.84</td>
+<td>29.55</td>
+<td>15.31</td>
+</tr>
+<tr>
+<th>50%</th>
+<td>7437.00</td>
+<td>11908.00</td>
+<td>4018.00</td>
+<td>51.69</td>
+<td>31.89</td>
+<td>16.20</td>
+</tr>
+<tr>
+<th>75%</th>
+<td>8453.50</td>
+<td>14961.50</td>
+<td>4386.00</td>
+<td>55.10</td>
+<td>33.34</td>
+<td>16.77</td>
+</tr>
+<tr>
+<th>max</th>
+<td>10879.00</td>
+<td>17275.00</td>
+<td>5901.00</td>
+<td>57.68</td>
+<td>36.07</td>
+<td>17.33</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr/>
+<div id="graficoSentimentoLineInfluenciadores">
+<h2>Gráfico de Sentimento Linha - Apenas Influenciadores</h2>
+<p>*Os valores aqui apresentados estão considerando apenas as postagens iniciais para cada termo</p>
+<img id="graficoSentimentoLineInfluenciadores_img" src="sentimentos_influencia_line.png" style="width:100%"/>
+<img id="graficoSentimentoBarInfluenciadores_img" src="sentimentos_influencia_bar.png" style="width:100%"/>
+<p>Dados de Origem</p>
+<div id="table_graficoSentimentoInfluenciadores"><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Data</th>
+<th>Positivos</th>
+<th>Negativos</th>
+<th>Neutros</th>
+<th>%Negativos</th>
+<th>%Positivos</th>
+<th>%Neutros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>2018-08-01</td>
+<td>1932</td>
+<td>3896</td>
+<td>1208</td>
+<td>55.37</td>
+<td>27.46</td>
+<td>17.17</td>
+</tr>
+<tr>
+<th>1</th>
+<td>2018-08-02</td>
+<td>2884</td>
+<td>5826</td>
+<td>2654</td>
+<td>51.27</td>
+<td>25.38</td>
+<td>23.35</td>
+</tr>
+<tr>
+<th>2</th>
+<td>2018-08-03</td>
+<td>1808</td>
+<td>4348</td>
+<td>1793</td>
+<td>54.70</td>
+<td>22.74</td>
+<td>22.55</td>
+</tr>
+<tr>
+<th>3</th>
+<td>2018-08-04</td>
+<td>1614</td>
+<td>4523</td>
+<td>1824</td>
+<td>56.81</td>
+<td>20.27</td>
+<td>22.91</td>
+</tr>
+<tr>
+<th>4</th>
+<td>2018-08-05</td>
+<td>1730</td>
+<td>3686</td>
+<td>1605</td>
+<td>52.50</td>
+<td>24.64</td>
+<td>22.86</td>
+</tr>
+<tr>
+<th>5</th>
+<td>2018-08-06</td>
+<td>1717</td>
+<td>3531</td>
+<td>1290</td>
+<td>54.01</td>
+<td>26.26</td>
+<td>19.73</td>
+</tr>
+<tr>
+<th>6</th>
+<td>2018-08-07</td>
+<td>295</td>
+<td>599</td>
+<td>238</td>
+<td>52.92</td>
+<td>26.05</td>
+<td>21.01</td>
+</tr>
+</tbody>
+</table><p>Totalizadores</p><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>Positivos</th>
+<th>Negativos</th>
+<th>Neutros</th>
+<th>%Negativos</th>
+<th>%Positivos</th>
+<th>%Neutros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>count</th>
+<td>7.00</td>
+<td>7.00</td>
+<td>7.00</td>
+<td>7.00</td>
+<td>7.00</td>
+<td>7.00</td>
+</tr>
+<tr>
+<th>mean</th>
+<td>1711.43</td>
+<td>3772.71</td>
+<td>1516.00</td>
+<td>53.94</td>
+<td>24.69</td>
+<td>21.37</td>
+</tr>
+<tr>
+<th>std</th>
+<td>758.18</td>
+<td>1594.96</td>
+<td>736.41</td>
+<td>1.88</td>
+<td>2.44</td>
+<td>2.25</td>
+</tr>
+<tr>
+<th>min</th>
+<td>295.00</td>
+<td>599.00</td>
+<td>238.00</td>
+<td>51.27</td>
+<td>20.27</td>
+<td>17.17</td>
+</tr>
+<tr>
+<th>25%</th>
+<td>1665.50</td>
+<td>3608.50</td>
+<td>1249.00</td>
+<td>52.71</td>
+<td>23.69</td>
+<td>20.37</td>
+</tr>
+<tr>
+<th>50%</th>
+<td>1730.00</td>
+<td>3896.00</td>
+<td>1605.00</td>
+<td>54.01</td>
+<td>25.38</td>
+<td>22.55</td>
+</tr>
+<tr>
+<th>75%</th>
+<td>1870.00</td>
+<td>4435.50</td>
+<td>1808.50</td>
+<td>55.04</td>
+<td>26.15</td>
+<td>22.88</td>
+</tr>
+<tr>
+<th>max</th>
+<td>2884.00</td>
+<td>5826.00</td>
+<td>2654.00</td>
+<td>56.81</td>
+<td>27.46</td>
+<td>23.35</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div id="footer" style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> <b>Resultados gerados em 08/08/2018 16:02:06</b></div>
+</body>
+</html>
